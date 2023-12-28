@@ -16,7 +16,10 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
 
-       <h1>Congratulations Beza! Are you gonna marry me?</h1>
+       <h1>Congratulation! You are on my little App! Listen to my contact below.</h1>
+      <div style="left:0;width:100%;height:0;position:relative;padding-bottom:100%">
+          <iframe src="https://mote.com/m/sf448wn?embed=true" style="top:0;left:0;width:100%;height:100%;position:absolute;border:0" title="Mote" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
   <p>You've completed the essentials of automated application deployment with GitHub Actions! 🥳</p>
 
       </main>
